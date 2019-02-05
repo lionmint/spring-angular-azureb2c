@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.myapi.HelloControllerTest" time="0.852" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="idea.version" value="2017.2.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.66-b17"/>
+    <property name="user.country.format" value="DE"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot"/>
+    <property name="java.runtime.version" value="1.8.0_66-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/kn/nj5qtrw15qbfcs7c59yt6zq00000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/lukas/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/lukas"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="lukas"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.2.3 install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_66"/>
+    <property name="java.ext.dirs" value="/Users/lukas/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testHello" classname="com.myapi.HelloControllerTest" time="0.852">
+    <failure message="Response body doesn&apos;t match expectation.&#10;Expected: is &quot;Hello World!&quot;&#10;  Actual: {&quot;timestamp&quot;:1549367584175,&quot;status&quot;:401,&quot;error&quot;:&quot;Unauthorized&quot;,&quot;message&quot;:&quot;Unauthorized&quot;,&quot;path&quot;:&quot;/&quot;}&#10;" type="java.lang.AssertionError">java.lang.AssertionError: Response body doesn't match expectation.
+Expected: is "Hello World!"
+  Actual: {"timestamp":1549367584175,"status":401,"error":"Unauthorized","message":"Unauthorized","path":"/"}
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:573)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:732)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:92)
+	at com.jayway.restassured.specification.ResponseSpecification$content$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:207)
+	at com.jayway.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:251)
+	at com.myapi.HelloControllerTest.testHello(HelloControllerTest.java:34)
+</failure>
+    <system-out><![CDATA[12:52:58.979 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.myapi.HelloControllerTest]
+12:52:58.984 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+12:52:58.992 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+12:52:59.002 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.myapi.HelloControllerTest] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+12:52:59.020 [main] DEBUG org.springframework.test.context.web.WebTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@6500df86 declaringClass = 'com.myapi.HelloControllerTest', classes = '{class com.myapi.App}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+12:52:59.029 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.myapi.HelloControllerTest]: class path resource [com/myapi/HelloControllerTest-context.xml] does not exist
+12:52:59.029 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.myapi.HelloControllerTest]: class path resource [com/myapi/HelloControllerTestContext.groovy] does not exist
+12:52:59.029 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.myapi.HelloControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:52:59.061 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.myapi.HelloControllerTest]
+12:52:59.069 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.boot.test.IntegrationTestPropertiesListener@2f943d71, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@80503, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4b553d26, org.springframework.test.context.transaction.TransactionalTestExecutionListener@69a3d1d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@86be70a]
+12:52:59.071 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.myapi.HelloControllerTest]
+12:52:59.072 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.myapi.HelloControllerTest]
+12:52:59.073 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.myapi.HelloControllerTest]
+12:52:59.074 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+12:52:59.074 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+12:52:59.074 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.myapi.HelloControllerTest] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+12:52:59.075 [main] DEBUG org.springframework.test.context.web.WebTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@3d921e20 declaringClass = 'com.myapi.HelloControllerTest', classes = '{class com.myapi.App}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+12:52:59.076 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.myapi.HelloControllerTest]: class path resource [com/myapi/HelloControllerTest-context.xml] does not exist
+12:52:59.076 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.myapi.HelloControllerTest]: class path resource [com/myapi/HelloControllerTestContext.groovy] does not exist
+12:52:59.076 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.myapi.HelloControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:52:59.081 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.myapi.HelloControllerTest]
+12:52:59.081 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.boot.test.IntegrationTestPropertiesListener@23d2a7e8, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7a9273a8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@26a7b76d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4abdb505, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7ce6a65d]
+12:52:59.082 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.myapi.HelloControllerTest]
+12:52:59.082 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.myapi.HelloControllerTest]
+12:52:59.082 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.myapi.HelloControllerTest]
+12:52:59.083 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.myapi.HelloControllerTest]
+12:52:59.083 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.myapi.HelloControllerTest]
+12:52:59.084 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.myapi.HelloControllerTest]
+12:52:59.087 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Getting field 'mergedContextConfiguration' from target object [[DefaultTestContext@7a3d45bd testClass = HelloControllerTest, testInstance = com.myapi.HelloControllerTest@1e7c7811, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@77ec78b9 testClass = HelloControllerTest, locations = '{}', classes = '{class com.myapi.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4973813a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@56aac163, org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@396f6598], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]] or target class [class org.springframework.test.context.support.DefaultTestContext]
+12:52:59.088 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'propertySourceProperties' of type [null] on target object [[WebMergedContextConfiguration@77ec78b9 testClass = HelloControllerTest, locations = '{}', classes = '{class com.myapi.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4973813a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@56aac163, org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@396f6598], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]] or target class [class org.springframework.test.context.web.WebMergedContextConfiguration] to value [[Ljava.lang.String;@4d3167f4]
+12:52:59.089 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@7a3d45bd testClass = HelloControllerTest, testInstance = com.myapi.HelloControllerTest@1e7c7811, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@77ec78b9 testClass = HelloControllerTest, locations = '{}', classes = '{class com.myapi.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{server.port:0, spring.datasource.url:jdbc:h2:mem:myapiboot;DB_CLOSE_ON_EXIT=FALSE, org.springframework.boot.test.WebIntegrationTest=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4973813a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@56aac163, org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@396f6598], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+12:52:59.145 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+12:52:59.146 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+12:52:59.146 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+12:52:59.147 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.7.RELEASE)
+
+2019-02-05 12:52:59.556  INFO 6158 --- [           main] com.myapi.HelloControllerTest            : Starting HelloControllerTest on Lukass-MacBook-Pro.local with PID 6158 (started by lukas in /Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot)
+2019-02-05 12:52:59.556  INFO 6158 --- [           main] com.myapi.HelloControllerTest            : No active profile set, falling back to default profiles: default
+2019-02-05 12:52:59.756  INFO 6158 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3a44431a: startup date [Tue Feb 05 12:52:59 CET 2019]; root of context hierarchy
+2019-02-05 12:53:01.445  INFO 6158 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+2019-02-05 12:53:01.457  INFO 6158 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-05 12:53:01.459  INFO 6158 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2019-02-05 12:53:01.550  INFO 6158 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-05 12:53:01.550  INFO 6158 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1798 ms
+2019-02-05 12:53:02.191  INFO 6158 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-02-05 12:53:02.192  INFO 6158 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-02-05 12:53:02.192  INFO 6158 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-02-05 12:53:02.192  INFO 6158 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-02-05 12:53:02.193  INFO 6158 --- [ost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-02-05 12:53:02.194  INFO 6158 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Filter jwtAuthenticationTokenFilter was not registered (disabled)
+2019-02-05 12:53:02.194  INFO 6158 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-02-05 12:53:02.683  INFO 6158 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/resources/**'], []
+2019-02-05 12:53:02.683  INFO 6158 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-02-05 12:53:02.750  INFO 6158 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12c60152, org.springframework.security.web.context.SecurityContextPersistenceFilter@396639b, org.springframework.security.web.header.HeaderWriterFilter@1b9776f5, org.springframework.security.web.authentication.logout.LogoutFilter@53ed09e8, com.myapi.auth.JwtAuthenticationTokenFilter@69b55b2c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62573c86, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7158daf2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e807c54, org.springframework.security.web.session.SessionManagementFilter@702b06fb, org.springframework.security.web.access.ExceptionTranslationFilter@1d75e7af, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c15e8c7]
+2019-02-05 12:53:02.837  INFO 6158 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3a44431a: startup date [Tue Feb 05 12:52:59 CET 2019]; root of context hierarchy
+2019-02-05 12:53:02.920  INFO 6158 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET],produces=[application/json]}" onto public java.util.List<com.myapi.model.ApiModel> com.myapi.HelloController.getApiData()
+2019-02-05 12:53:02.925  INFO 6158 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-02-05 12:53:02.925  INFO 6158 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-02-05 12:53:02.993  INFO 6158 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-02-05 12:53:02.993  INFO 6158 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-02-05 12:53:03.040  INFO 6158 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-02-05 12:53:03.496  INFO 6158 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 64986 (http)
+2019-02-05 12:53:03.500  INFO 6158 --- [           main] com.myapi.HelloControllerTest            : Started HelloControllerTest in 4.348 seconds (JVM running for 4.855)
+2019-02-05 12:53:04.113  INFO 6158 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-02-05 12:53:04.114  INFO 6158 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-02-05 12:53:04.132  INFO 6158 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2019-02-05 12:53:04.147  WARN 6158 --- [o-auto-1-exec-1] c.m.auth.JwtAuthenticationTokenFilter    : Will ignore the header
+2019-02-05 12:53:04.147  INFO 6158 --- [o-auto-1-exec-1] c.m.auth.JwtAuthenticationTokenFilter    : checking authentication for user null
+]]></system-out>
+  </testcase>
+</testsuite>

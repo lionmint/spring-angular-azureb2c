@@ -1,0 +1,14 @@
+/Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot/src/main/java/com/myapi/services/UserService.java
+/Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot/src/main/java/com/myapi/azure/KeyBean.java
+/Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot/src/main/java/com/myapi/exception/TokenException.java
+/Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot/src/main/java/com/myapi/utils/AzureADUtils.java
+/Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot/src/main/java/com/myapi/auth/JwtAuthenticationEntryPoint.java
+/Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot/src/main/java/com/myapi/constants/SecurityConstants.java
+/Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot/src/main/java/com/myapi/model/ApiModel.java
+/Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot/src/main/java/com/myapi/configuration/WebSecurityConfig.java
+/Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot/src/main/java/com/myapi/auth/JwtAuthenticationTokenFilter.java
+/Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot/src/main/java/com/myapi/HelloController.java
+/Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot/src/main/java/com/myapi/azure/OpenIdKeysBean.java
+/Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot/src/main/java/com/myapi/App.java
+/Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot/src/main/java/com/myapi/azure/OpenIdConfigurationBean.java
+/Users/lukas/Documents/workspaces/scm/spring_angular_azureb2c_github/myapiboot/src/main/java/com/myapi/configuration/BeanConfig.java

@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.myapi.HelloControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.283 sec <<< FAILURE! - in com.myapi.HelloControllerTest
+testHello(com.myapi.HelloControllerTest)  Time elapsed: 0.852 sec  <<< FAILURE!
+java.lang.AssertionError: Response body doesn't match expectation.
+Expected: is "Hello World!"
+  Actual: {"timestamp":1549367584175,"status":401,"error":"Unauthorized","message":"Unauthorized","path":"/"}
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:573)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:732)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:92)
+	at com.jayway.restassured.specification.ResponseSpecification$content$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:207)
+	at com.jayway.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:251)
+	at com.myapi.HelloControllerTest.testHello(HelloControllerTest.java:34)
+
